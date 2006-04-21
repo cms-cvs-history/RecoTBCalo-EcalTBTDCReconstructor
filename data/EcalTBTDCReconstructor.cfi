@@ -1,0 +1,13 @@
+  #TDC recInfo reconstruction
+
+  module tdcReco = EcalTBTDCRecInfoProducer
+  {
+     string rawInfoProducer   = "Ecal2004TBSource"
+     string rawInfoCollection = ""
+     string eventHeaderProducer   = "Ecal2004TBSource"
+     string eventHeaderCollection = ""
+     string recInfoCollection  = "EcalTBTDCRecInfo"
+     int32 fitMethod = 0
+     vint32 tdcMin = { 430 ,  400,  400,  400,  400 }
+     vint32 tdcMax = { 958 ,  927,  927,  927,  927 }
+  } 	
