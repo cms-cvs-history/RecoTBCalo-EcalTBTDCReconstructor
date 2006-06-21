@@ -2,9 +2,9 @@
 
   module tdcReco = EcalTBTDCRecInfoProducer
   {
-     string rawInfoProducer   = "Ecal2004TBSource"
+     string rawInfoProducer   = "source"
      string rawInfoCollection = ""
-     string eventHeaderProducer   = "Ecal2004TBSource"
+     string eventHeaderProducer   = "source"
      string eventHeaderCollection = ""
      string recInfoCollection  = "EcalTBTDCRecInfo"
      int32 fitMethod = 0
