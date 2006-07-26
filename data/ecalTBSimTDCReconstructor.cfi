@@ -1,0 +1,12 @@
+  # Simulated TDC reconstruction
+
+  module ecalTBSimTDCReconstructor = EcalTBTDCRecInfoProducer
+  {
+     string rawInfoProducer       = "ecaldigi"
+     string rawInfoCollection     = "EcalTBTDCRawInfo"           
+     string eventHeaderProducer   = "SimEcalEventHeader"          
+     string eventHeaderCollection = "EcalTBEventHeader"           
+     string recInfoCollection     = "EcalTBTDCRecInfo"            
+     bool use2004OffsetConvention = false	
+     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2004TBTDCRanges.cff"
+  } 	

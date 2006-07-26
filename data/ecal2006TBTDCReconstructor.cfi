@@ -1,0 +1,13 @@
+  #TDC recInfo reconstruction
+
+  module ecal2006TBTDCReconstructor = EcalTBTDCRecInfoProducer
+  {
+     string rawInfoProducer   = "ecalTBunpack"
+     string rawInfoCollection = ""
+     string eventHeaderProducer   = "ecalTBunpack"
+     string eventHeaderCollection = ""
+     string recInfoCollection  = "EcalTBTDCRecInfo"
+     untracked bool use2004OffsetConvention = false
+     int32 fitMethod = 0
+     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBTDCRanges.cff"
+  } 	
