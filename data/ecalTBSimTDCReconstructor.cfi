@@ -7,6 +7,6 @@
      string eventHeaderProducer   = "SimEcalEventHeader"          
      string eventHeaderCollection = "EcalTBEventHeader"           
      string recInfoCollection     = "EcalTBTDCRecInfo"            
-     bool use2004OffsetConvention = false	
+     untracked bool use2004OffsetConvention = false	
      include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2004TBTDCRanges.cff"
   } 	
