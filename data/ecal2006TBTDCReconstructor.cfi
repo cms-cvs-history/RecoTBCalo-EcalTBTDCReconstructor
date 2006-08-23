@@ -9,5 +9,5 @@
      string recInfoCollection  = "EcalTBTDCRecInfo"
      untracked bool use2004OffsetConvention = false
      int32 fitMethod = 0
-     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBTDCRanges.cff"
+     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBTDCRanges_v1.cff"
   } 	
