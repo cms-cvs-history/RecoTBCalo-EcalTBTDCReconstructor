@@ -1,0 +1,15 @@
+VPSet tdcRanges=
+{
+    {
+	int32 startRun = 10339 
+	int32 endRun = 14441
+	vdouble tdcMin = { 748. ,  400,  400,  400,  400 }
+	vdouble tdcMax = { 1008. ,  927,  927,  927,  927 }
+    },
+    {
+	int32 startRun = 14442
+	int32 endRun = 999999
+	vdouble tdcMin = { 1502. ,  400.,  400.,  400.,  400. }
+	vdouble tdcMax = { 1764. ,  927.,  927.,  927.,  927. }
+    }
+}
