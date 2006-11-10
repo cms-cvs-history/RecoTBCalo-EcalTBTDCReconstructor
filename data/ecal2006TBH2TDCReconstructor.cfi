@@ -7,5 +7,5 @@
      string triggerDataProducer   = "tbunpacker"
      string triggerDataCollection = ""
      string recInfoCollection  = "EcalTBTDCRecInfo"
-     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBH2TDCRanges_v0.cff"
+     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBH2TDCRanges_v1.cff"
   } 	
