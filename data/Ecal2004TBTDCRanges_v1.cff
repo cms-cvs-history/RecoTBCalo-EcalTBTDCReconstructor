@@ -3,7 +3,7 @@ VPSet tdcRanges=
     {
 	int32 startRun = -1 
 	int32 endRun = 999999
-	vint32 tdcMin = { 430 ,  400,  400,  400,  400 }
-	vint32 tdcMax = { 958 ,  927,  927,  927,  927 }
+	vdouble tdcMin = { 430. ,  400.,  400.,  400.,  400. }
+	vdouble tdcMax = { 958. ,  927.,  927.,  927.,  927. }
     }
 }
