@@ -2,7 +2,7 @@
 
   module ecalTBSimTDCReconstructor = EcalTBTDCRecInfoProducer
   {
-     string rawInfoProducer       = "ecaldigi"
+     string rawInfoProducer       = "ecalUnsuppressedDigis"
      string rawInfoCollection     = "EcalTBTDCRawInfo"           
      string eventHeaderProducer   = "SimEcalEventHeader"          
      string eventHeaderCollection = "EcalTBEventHeader"           
