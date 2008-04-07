@@ -1,3 +1,5 @@
+block EcalTBSimTDCRangesBlock = {
+
 VPSet tdcRanges=
 {
     {
@@ -6,4 +8,6 @@ VPSet tdcRanges=
 	vdouble tdcMin = { 748. ,  400,  400,  400,  400 }
 	vdouble tdcMax = { 1008. ,  927,  927,  927,  927 }
     }
+}
+
 }

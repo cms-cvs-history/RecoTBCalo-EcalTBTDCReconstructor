@@ -1,3 +1,5 @@
+block Ecal2006TBH2TDCRanges_v1Block = {
+
 VPSet tdcZeros=
 {
     {
@@ -10,4 +12,6 @@ VPSet tdcZeros=
 	int32 endRun = 999999
 	double tdcZero = 1058.5
     }
+}
+
 }

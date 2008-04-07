@@ -1,5 +1,7 @@
   #TDC recInfo reconstruction
 
+  include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBTDCRanges_v2.cff"
+
   module ecal2006TBTDCReconstructor = EcalTBTDCRecInfoProducer
   {
      string rawInfoProducer   = "ecalTBunpack"
@@ -9,5 +11,5 @@
      string recInfoCollection  = "EcalTBTDCRecInfo"
      untracked bool use2004OffsetConvention = false
      int32 fitMethod = 0
-     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBTDCRanges_v2.cff"
+     using Ecal2006TBTDCRanges_v2Block 
   } 	

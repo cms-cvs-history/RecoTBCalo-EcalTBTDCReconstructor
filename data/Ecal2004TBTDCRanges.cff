@@ -1,2 +1,5 @@
+block Ecal2004TBTDCRangesBlock = {
      vint32 tdcMin = { 430 ,  400,  400,  400,  400 }
      vint32 tdcMax = { 958 ,  927,  927,  927,  927 }
+
+}

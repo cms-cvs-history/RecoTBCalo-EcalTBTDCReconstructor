@@ -1,5 +1,7 @@
   #TDC recInfo reconstruction for H2 ECAL&HCAL TB
 
+  include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBH2TDCRanges_v1.cff"
+
   module ecal2006TBH2TDCReconstructor = EcalTBH2TDCRecInfoProducer
   {
      string rawInfoProducer   = "tbunpacker"
@@ -7,5 +9,5 @@
      string triggerDataProducer   = "tbunpacker"
      string triggerDataCollection = ""
      string recInfoCollection  = "EcalTBTDCRecInfo"
-     include "RecoTBCalo/EcalTBTDCReconstructor/data/Ecal2006TBH2TDCRanges_v1.cff"
+     using Ecal2006TBH2TDCRanges_v1Block 
   } 	

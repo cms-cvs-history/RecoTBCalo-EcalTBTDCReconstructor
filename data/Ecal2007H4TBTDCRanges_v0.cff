@@ -1,3 +1,5 @@
+block Ecal2007H4TBTDCRanges_v0Block = {
+
 VPSet tdcRanges=
 {
     {
@@ -6,4 +8,6 @@ VPSet tdcRanges=
 	vdouble tdcMin = { 1269. ,  400,  400,  400,  400 }
 	vdouble tdcMax = { 1531. ,  927,  927,  927,  927 }
     }
+}
+
 }

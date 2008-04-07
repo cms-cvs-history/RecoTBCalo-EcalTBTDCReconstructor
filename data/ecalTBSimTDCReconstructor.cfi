@@ -1,5 +1,7 @@
   # Simulated TDC reconstruction
 
+  include "RecoTBCalo/EcalTBTDCReconstructor/data/EcalTBSimTDCRanges.cff"
+
   module ecalTBSimTDCReconstructor = EcalTBTDCRecInfoProducer
   {
      string rawInfoProducer       = "ecalUnsuppressedDigis"
@@ -8,5 +10,5 @@
      string eventHeaderCollection = "EcalTBEventHeader"           
      string recInfoCollection     = "EcalTBTDCRecInfo"            
      untracked bool use2004OffsetConvention = false
-     include "RecoTBCalo/EcalTBTDCReconstructor/data/EcalTBSimTDCRanges.cff"
+     using EcalTBSimTDCRangesBlock
   } 	
